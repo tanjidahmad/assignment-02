@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 16px 24px;
+  background: rgba(26, 11, 46, 1);
+  color: white;
+}
+
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+.logo span {
+  color: #ff2da3;
+}
+
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.subscribe {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+  color: white;
+  cursor: pointer;
+}
+.subscribe i {
+  transition: transform 0.3s ease;
+}
+
+.subscribe:hover i {
+  transform: translateX(6px);
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .menu {
+    display: none; 
+  }
+
+  .subscribe {
+    display: none; 
+  }
+
+  .hamburger {
+    display: block; 
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .navbar {
+    padding: 14px 16px;
+  }
+}
