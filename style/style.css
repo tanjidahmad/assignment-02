@@ -15,7 +15,8 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content:space-between;
+  text-align: center;
   padding: 16px 24px;
   background: rgba(26, 11, 46, 1);
   color: white;
@@ -67,9 +68,9 @@
 
 /* hero */
 .hero {
-  /* max-width:; */
+   /* max-width:1600px; */
   /* min-height: 50vh;  */
-  /* width: 760px; */
+   /* width: 760px;  */
   background-image: url("../assets/hero-bg.png"); 
   background-size: cover;
   background-position: center;
@@ -157,6 +158,18 @@ p {
   text-decoration: none;
   font-size: 14px;
   transition: 0.3s;
+   animation: pulse 2.2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .primary {
@@ -169,9 +182,9 @@ p {
   color: #00FF88;
 }
 
-.btn:hover {
+/* .btn:hover {
   transform: scale(1.05);
-}
+} */
 
 /* about */
 /* about */
@@ -179,7 +192,7 @@ p {
   background-color: #1A0B2E;
 }
 .explore{
-  /* border: 2px solid blueviolet; */
+ 
   max-width: 1200px;
   margin: 0 auto;
   /* width: 100px; */
@@ -193,10 +206,7 @@ p {
   max-width: 1200px;
   margin: 40px auto 18px;
   
-  /* height: 1px; */
-  
-  /* background: rgba(28, 27, 27, 0.2);  */
- 
+
  }
 .gain{
    /* border: 5px solid green;  */
@@ -515,10 +525,12 @@ p {
 
   .hamburger {
     display: block; 
+    margin-left: 100px;
   }
 
   .logo {
     font-size: 24px;
+    /* margin-right: 100px; */
   }
 
   .navbar {
