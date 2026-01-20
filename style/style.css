@@ -193,9 +193,9 @@ p {
   max-width: 1200px;
   margin: 40px auto 18px;
   
-  height: 1px;
+  /* height: 1px; */
   
-  background: rgba(28, 27, 27, 0.2); 
+  /* background: rgba(28, 27, 27, 0.2);  */
  
  }
 .gain{
