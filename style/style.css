@@ -224,6 +224,73 @@ p {
   font-size: 3rem;
   color: #00FF88;
 }
+/* grid */
+.grid-container{
+  max-width: 1200px;
+  border: 10px solid red;
+  min-height: 400px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3,200px);
+ gap: 20px;
+ padding: 24px;
+
+
+
+}
+.grip{
+    background-color: #230E3D;
+    padding: 40px;
+}
+.grip-header{
+    max-width: 1200px;
+  border: 10px solid red;
+  margin: 0 auto;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+.grid-container > div{
+  background: linear-gradient(145deg, #2b0f4a, #1e0a36);
+  border-radius: 20px;
+  padding: 24px;
+  color: #FFFFFF;
+}
+.none-no{
+    margin-top: 40px;
+}
+.none{
+    display: grid;
+    align-items: center;
+    /* text-align: center; */
+    align-items: center;
+}
+.box-1{
+    grid-column: span 1;
+    grid-row: span 2;
+    /* height: 480; */
+    max-width: 380;
+    gap: 16px;
+
+}
+ .box-2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+  .box-3{
+    grid-column: span 2;
+    grid-row: span 1;
+} 
+
+ .box-4{
+    grid-row: span 1;
+    grid-column:  span 2;
+}
+ .box-5{
+    grid-column: span 1; 
+
+
+}
 
 
  
