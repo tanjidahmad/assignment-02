@@ -36,7 +36,7 @@
   gap: 24px;
 }
 .menu a {
-  color: white;
+  color:#FFFFFF;
   text-decoration: none;
 }
 
@@ -161,12 +161,12 @@ p {
 
 .primary {
   background: linear-gradient(45deg, #ff0080, #ffcc00);
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .outline {
   border: 1px solid #00ff9c;
-  color: #00ff9c;
+  color: #00FF88;
 }
 
 .btn:hover {
@@ -179,7 +179,7 @@ p {
   background-color: #1A0B2E;
 }
 .explore{
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   max-width: 1200px;
   margin: 0 auto;
   /* width: 100px; */
@@ -195,21 +195,22 @@ p {
   
   height: 1px;
   
-  background: rgba(28, 27, 27, 0.2); */
+  background: rgba(28, 27, 27, 0.2); 
  
  }
 .gain{
-  border: 5px solid green;
+   /* border: 5px solid green;  */
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 .main-section{
-  border: 2px solid rebeccapurple;
+    border: 2px solid #1A0B2E;
   height: 100%;
   width: 100%;
+  margin-top: 0;
 }
 .down{
    margin-top: 30px; 
@@ -227,7 +228,7 @@ p {
 /* grid */
 .grid-container{
   max-width: 1200px;
-  border: 10px solid red;
+  /* border: 10px solid red; */
   min-height: 400px;
   margin: 50px auto;
   display: grid;
@@ -245,10 +246,13 @@ p {
 }
 .grip-header{
     max-width: 1200px;
-  border: 10px solid red;
+  /* border: 10px solid red; */
   margin: 0 auto;
   text-align: center;
   /* margin-top: 10px; */
+}
+.grip-header h1{
+  color: white;
 }
 .grid-container > div{
   background: linear-gradient(145deg, #2b0f4a, #1e0a36);
@@ -370,9 +374,11 @@ p {
 }
 .host{
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     max-width: 1200px;
     text-align: center;
+    color: white;
+    margin-bottom: 5px;
 }
 
 .host-wrapper h2 {
@@ -739,6 +745,7 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: white;
   }
 
   
@@ -746,7 +753,7 @@ p {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.35);
+    /* background: rgba(0, 0, 0, 0.35); */
   }
 
   .footer-content {
