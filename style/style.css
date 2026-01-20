@@ -429,6 +429,52 @@ p {
   background: #ff4ecd;
   color: #fff;
 } 
+/* footer */
+.footer {
+  /* background: linear-gradient(135deg, #1b0b3a, #2c0f5a); */
+  background-image: url("../assets/footer-bg.png");
+  color: #fff;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 22px;          /* 🔥 header, icons, copyright er majhe gap */
+  padding: 60px 60px;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.footer-title span {
+  color: #ff3cf0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+           
+}
+
+.footer-icons a {
+  color: #fff;
+  font-size: 22px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #ff3cf0;
+  transform: translateY(-3px);
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.7;
+}
 
 
  
