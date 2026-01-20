@@ -63,6 +63,138 @@
   font-size: 28px;
   cursor: pointer;
 }
+
+
+/* hero */
+.hero {
+  /* max-width:; */
+  /* min-height: 50vh;  */
+  /* width: 760px; */
+  background-image: url("../assets/hero-bg.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  isolation: isolate;
+  /* margin-bottom: 10px; */
+}
+
+/* CONTENT */
+.content {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+/* LOGO AREA */
+.logo {
+  position: relative;
+  display: inline-block;
+   margin-bottom: 20px;
+   align-items: center; 
+  /* margin: 0 auto; */
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+}
+
+.mic {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 70px;
+  z-index: 2;
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  border: 10px solid #00ff9c;
+  height: 38px;
+  width: 70px;;
+  top: 20px;
+  right: -12px;
+  background: #00ff9c;
+  color: #1A0B2E;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  z-index: 3;
+  /* align-items: center; */
+}
+
+/* TEXT */
+h1 {
+  font-size: 2.75rem;
+  margin: 15px 0 10px;
+}
+
+p {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.primary {
+  background: linear-gradient(45deg, #ff0080, #ffcc00);
+  color: #fff;
+}
+
+.outline {
+  border: 1px solid #00ff9c;
+  color: #00ff9c;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   .menu {
     display: none; 
