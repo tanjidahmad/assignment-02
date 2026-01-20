@@ -489,6 +489,7 @@ p {
 
 .footer-title span {
   color: #ff3cf0;
+  
 }
 
 .footer-icons {
@@ -496,6 +497,9 @@ p {
   justify-content: center;
   gap: 15px;
            
+}
+.footer-icons span{
+  font-size: 1 rem;
 }
 
 .footer-icons a {
